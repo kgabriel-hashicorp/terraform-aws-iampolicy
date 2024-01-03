@@ -17,7 +17,7 @@ jobs:
         uses: actions/cache@v3
         with:
           path: ~/.tflint.d/plugins
-          key: tflint-${{ hashFiles('.tflint.hcl') }}
+          key: ubuntu-22.04-tflint-${{ hashFiles('.tflint.hcl') }}
       - name: Setup Terraform
         uses: hashicorp/setup-terraform@v2
         with:

@@ -1,9 +1,8 @@
 
-# module template
-This repository contains the standards we recommend having for a root module in Terraform.
+# terraform-aws-iam-policyandroles
 
 ## Usage
-This terraform module will create an S3 Bucket.
+Module to create IAM policy and role to read an s3 bucket
 
 <!-- BEGIN_TF_DOCS -->
 ## Requirements

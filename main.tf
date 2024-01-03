@@ -9,8 +9,8 @@ data "aws_iam_policy_document" "s3_read_policy" {
 }
 
 resource "aws_iam_role" "iam_role_s3_read" {
-  name = "${var.role_name}-read-only-s3"
+  name               = "${var.role_name}-read-only-s3"
   assume_role_policy = data.aws_iam_policy_document.s3_read_policy.json
-  tags = var.role_tags
-  
+  tags               = var.role_tags
+
 }

@@ -3,7 +3,7 @@ config {
   format              = "default"
   module              = true
   force               = false
-  disabled_by_default = false
+  disabled_by_default = true
 }
 
 # Default Terraform ruleset described here: https://github.com/terraform-linters/tflint-ruleset-terraform/blob/main/docs/rules/README.md
@@ -24,6 +24,11 @@ rule "terraform_module_version" {
 rule "terraform_naming_convention" {
   enabled = true
   format  = "snake_case"
+}
+
+# Enforces required_version, disabling as modules don't need providers
+rule "terraform_required_version" {
+  enabled = false
 }
 
 plugin "terraform" {

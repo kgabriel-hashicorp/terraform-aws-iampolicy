@@ -26,6 +26,11 @@ rule "terraform_naming_convention" {
   format  = "snake_case"
 }
 
+# Enforces required_version, disabling as modules don't need providers
+rule "terraform_required_version" {
+  enabled = false
+}
+
 plugin "terraform" {
   enabled = true
   version = "0.5.0"

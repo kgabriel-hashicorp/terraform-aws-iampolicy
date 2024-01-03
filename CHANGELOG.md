@@ -5,6 +5,13 @@ All notable changes to this project will be documented in this file.
 ## 1.0.0 (2024-01-03)
 
 
+### Features
+
+* Create new module ([4d23cae](https://github.com/kgabriel-hashicorp/terrarform-aws-iampolicy/commit/4d23cae302de1a42a3e04de2eacb91f1bd3d56c3))
+
+## 1.0.0 (2024-01-03)
+
+
 ### ⚠ BREAKING CHANGES
 
 * Add release and tflint file

@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.1](https://github.com/kgabriel-hashicorp/terrarform-aws-iampolicy/compare/v1.0.0...v1.0.1) (2024-01-03)
+
+
+### Bug Fixes
+
+* Auto format codebase ([cb3fe30](https://github.com/kgabriel-hashicorp/terrarform-aws-iampolicy/commit/cb3fe3030f4f218c247f9d3d91351166673b430d))
+* Auto update Terraform docs ([cdf94f9](https://github.com/kgabriel-hashicorp/terrarform-aws-iampolicy/commit/cdf94f9d8570abf80718bc900ecdfc901afc2067))
+
+
+### Documentation
+
+* Update readme ([7c7686b](https://github.com/kgabriel-hashicorp/terrarform-aws-iampolicy/commit/7c7686bafd414502e4a7054957f7ac251faa4a69))
+
 ## 1.0.0 (2024-01-03)
 
 

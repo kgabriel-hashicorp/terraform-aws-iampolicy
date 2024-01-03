@@ -2,6 +2,26 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.1.0](https://github.com/kgabriel-hashicorp/terraform-aws-iampolicy/compare/v1.0.1...v1.1.0) (2024-01-03)
+
+
+### Features
+
+* Adding for feat ([82a5511](https://github.com/kgabriel-hashicorp/terraform-aws-iampolicy/commit/82a55118ef9b42d3f545c97ab487d0d765be5941))
+* disable by default ([03b553e](https://github.com/kgabriel-hashicorp/terraform-aws-iampolicy/commit/03b553e8aae4396a8b75f1936b6df746469fdeeb))
+
+
+### Bug Fixes
+
+* add ubuntu-22.04 to lint key ([d67953b](https://github.com/kgabriel-hashicorp/terraform-aws-iampolicy/commit/d67953bf25d26e39a1e022a0c344ae720852001a))
+* linter ([a11fdc5](https://github.com/kgabriel-hashicorp/terraform-aws-iampolicy/commit/a11fdc5a192bee7a3e64634b11478229f7f8e0cf))
+
+
+### Documentation
+
+* Update lint ([e3c68fd](https://github.com/kgabriel-hashicorp/terraform-aws-iampolicy/commit/e3c68fd66085d4f8b2afac2b2b3d0eb40fdcea99))
+* Update tflint ([587e3fc](https://github.com/kgabriel-hashicorp/terraform-aws-iampolicy/commit/587e3fcb87fec5a925ecf3fdcae0b141ec955129))
+
 ## [1.0.1](https://github.com/kgabriel-hashicorp/terrarform-aws-iampolicy/compare/v1.0.0...v1.0.1) (2024-01-03)
 
 

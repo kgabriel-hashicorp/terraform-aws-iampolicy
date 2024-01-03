@@ -3,7 +3,7 @@ config {
   format              = "default"
   module              = true
   force               = false
-  disabled_by_default = false
+  disabled_by_default = true
 }
 
 # Default Terraform ruleset described here: https://github.com/terraform-linters/tflint-ruleset-terraform/blob/main/docs/rules/README.md
